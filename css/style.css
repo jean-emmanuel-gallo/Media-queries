@@ -1,0 +1,212 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+
+.jumbo1 {
+    width: 100%;
+    height: auto;
+    margin-top: 82px;
+}
+
+.jumbo2 {
+    width: 100%;
+    height: auto;
+    margin-top: 82px;
+}
+
+.jumbo3 {
+    width: 100%;
+    height: auto;
+    margin-top: 82px;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.presentation {
+    display: block;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Palatino Linotype";
+}
+
+.presentation2 {
+    display: block;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Palatino Linotype";
+}
+
+
+.fondec1 {
+    height: 300px;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/411/467/808/ciudad-europa-francia-marseille-wallpaper-preview.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+footer {
+    background-color: #056eca;
+    color: black;
+}
+
+.smfooter {
+    height: 30px;
+}
+
+.logofooter {
+    height: 100px;
+}
+
+.histoire {
+    text-align: center;
+}
+
+.part1 {
+    display: block;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Palatino Linotype";
+}
+
+h2 {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.fondec2 {
+    height: 300px;
+    background-image: url("https://i.pinimg.com/736x/cb/f0/5a/cbf05a157fbdd62a955f6cf70d6a978a--ancient-greek-greece.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover; 
+}
+
+.part2 {
+    display: block;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Palatino Linotype";
+}
+
+.lieux {
+    display: block;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Palatino Linotype";
+}
+
+.fondec3 {
+    height: 300px;
+    background-image: url("http://madeinmarseille.net/actualites-marseille/2016/01/massif-garlaban-aubagne-balade.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover; 
+}
+
+.fondec4 {
+    height: 300px;
+    background-image: url("http://madeinmarseille.net/actualites-marseille/2015/12/massif-sainte-beaume-balade-randonner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover; 
+}
+
+.fondec5 {
+    height: 300px;
+    background-image: url("http://madeinmarseille.net/actualites-marseille/2016/01/mont-sainte-victoire-promenade-aix.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover; 
+}
+
+.fondec6 {
+    height: 300px;
+    background-image: url("https://www.myprovence.fr/sites/default/files/styles/main/public/2021-09/kayak-calanques.jpg?itok=WPLMhxdi");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover; 
+}
+
+.fondec7 {
+    height: 300px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/42/Palais_Longchamp_%28Marseille%29.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover; 
+}
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .gallery {
+    width: 94%;
+}
+
+@media (max-width: 768px) {
+    h1{
+        color: red;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lightbox{
+        max-width: 70%;
+        margin-left: 94px;
+        margin-right: 94px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logofooter  {
+      display: none;
+    }
+}

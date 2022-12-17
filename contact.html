@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marseille</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+<!--DEBUT HEADER-->    
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="marseille.html"><img class="img-fluid" style="max-height: 56px;" src="img/Armoiries_de_Marseille.svg.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="marseille.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="histoire.html">Son histoire</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rando.html">Nos lieux</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="musees.html">Nos musées</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Nous contacter</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Jumbotron -->
+<div class="jumbotron">
+    <img class="jumbo3" src="img/musee.jpg" alt="">
+</div>
+<!-- Jumbotron -->
+</header>
+<!--FIN HEADER--> <br>
+
+<main>
+    <!-- Wrapper container -->
+<div class="container py-4">
+
+    <!-- Bootstrap 5 starter form -->
+    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+  
+      <!-- Name input -->
+      <div class="mb-3">
+        <label class="form-label" for="name">Nom</label>
+        <input class="form-control" id="name" type="text" placeholder="Nom" data-sb-validations="required" />
+        <div class="invalid-feedback" data-sb-feedback="name:required">Le nom est requis.</div>
+      </div>
+  
+      <!-- Email address input -->
+      <div class="mb-3">
+        <label class="form-label" for="emailAddress">Adresse Email</label>
+        <input class="form-control" id="emailAddress" type="email" placeholder="Adresse Email" data-sb-validations="required, email" />
+        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">L'adresse Email est requise.</div>
+        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">L'adresse Email n'est pas valide.</div>
+      </div>
+  
+      <!-- Message input -->
+      <div class="mb-3">
+        <label class="form-label" for="message">Message</label>
+        <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+        <div class="invalid-feedback" data-sb-feedback="message:required">Vous devez écrire votre message.</div>
+      </div>
+  
+      <!-- Form submissions success message -->
+      <div class="d-none" id="submitSuccessMessage">
+        <div class="text-center mb-3">Message envoyé avec succès !</div>
+      </div>
+  
+      <!-- Form submissions error message -->
+      <div class="d-none" id="submitErrorMessage">
+        <div class="text-center text-danger mb-3">Error sending message!</div>
+      </div>
+  
+      <!-- Form submit button -->
+      <div class="d-grid">
+        <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
+      </div>
+  
+    </form>
+  
+  </div>
+  
+  <!-- SB Forms JS -->
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</main>
+
+
+<!--DEBUT FOOTER-->
+<!-- Footer -->
+<footer class="text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a href="#!" role="button"><img class="smfooter" src="img/facebook.svg" alt=""></a>
+        <!-- Twitter -->
+        <a href="#!" role="button"><img class="smfooter" src="img/twitter.svg" alt=""></a>
+
+            <a href="marseille.html"><img class="logofooter" src="img/Armoiries_de_Marseille.svg.png" alt=""></a>
+
+        <!-- Instagram -->
+        <a href="#!" role="button"><img class="smfooter" src="img/instagram.svg" alt=""></i></a>
+  
+        <!-- Google -->
+        <a href="#!" role="button"><img class="smfooter" src="img/google.svg" alt=""></a>
+  
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Ce site n'est pas le site officiel de la ville de Marseille, et ce même 
+          s'il est bien plus beau que l'original !
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="" style="align-items: center;">  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="histoire.html" class="text-white">Son histoire</a>
+              </li>
+              <li>
+                <a href="rando.html" class="text-white">Nos lieux</a>
+              </li>
+              <li>
+                <a href="musees.html" class="text-white">Nos musées</a>
+              </li>
+              <li>
+                <a href="contact.html" class="text-white">Nous contacter</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  </footer>
+  <!-- Footer -->
+<!--FIN FOOTER-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
